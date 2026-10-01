@@ -55,7 +55,7 @@ export function Navbar() {
                 className="rounded-lg h-14 w-14 object-contain shrink-0 dark:invert"
                 loading="eager"
               />
-              <span title={settings.storeName} className="max-w-[220px] truncate font-bold tracking-[0.1em] uppercase text-xl xl:text-2xl transition-colors text-primary">
+              <span title={settings.storeName} className="whitespace-nowrap font-bold text-lg sm:text-xl xl:text-2xl transition-colors text-primary">
                 {settings.storeName}
               </span>
             </Link>
@@ -76,7 +76,7 @@ export function Navbar() {
                 className="rounded-lg h-10 w-10 md:h-12 md:w-12 object-contain shrink-0 dark:invert"
                 loading="eager"
               />
-              <span title={settings.storeName} className="max-w-[150px] truncate font-bold tracking-[0.1em] uppercase text-sm md:text-lg transition-colors text-primary hidden sm:block">
+              <span title={settings.storeName} className="whitespace-nowrap font-bold text-sm md:text-lg transition-colors text-primary hidden sm:block">
                 {settings.storeName}
               </span>
             </Link>
@@ -312,3 +312,4 @@ export function Navbar() {
     </>
   );
 }
+
